@@ -1,0 +1,33 @@
+1. to create venv using default python installed version :-
+   pipenv shell
+
+2. to activate venv
+   pipenv shell
+
+3. to create a venv using python 3.8.8
+   pipenv --python 3.8.8
+
+4. to delete a venv
+   pipenv --rm
+
+5. to exit a venv
+   exit
+
+6. to install a package
+   pipenv install <package_name>
+
+6. to unistall a package
+   pip uninstall <package_name>
+
+7. list all packages in the venv 
+   pip list
+
+8. list all packages installed using pipenv
+   pip freeze
+
+9. make requirements.txt
+   pip freeze > requirements.txt
+
+10. install using requirements.txt
+    pipev install -r requiremts.txt
+
