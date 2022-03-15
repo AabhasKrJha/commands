@@ -1,0 +1,13 @@
+1. remove a file
+   rm <filename>
+
+2. remove a directory
+   rm -rf <directory name>
+
+3. move a file/directory
+   mv <filepath/dirpath> <destination path>
+
+4. copy files/ directory
+   cp <filename/dirpath> <destination path>
+
+
