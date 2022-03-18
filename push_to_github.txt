@@ -1,0 +1,19 @@
+1. initailise git repo to main branch
+   git init -b
+   to initialise in default branch : git init
+
+2. create .gitignore file
+
+3. setup git username and email
+   git config user.name "username"
+   git config user.email "email"
+
+4. commit changes
+   git add .
+   git commit -m "commit msg"
+
+5. add remote origin
+   git remote add origin <repo_link>
+
+6. push
+   git push -u origin <branch>
